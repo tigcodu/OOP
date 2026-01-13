@@ -1,0 +1,31 @@
+EXERCISE 2: INHERITANCE 
+
+CONCEPT: Inheritance (Parent-Child Class Relationship) 
+
+OBJECTIVE: Demonstrate inheritance by extending functionality from a base class to a derived class. 
+
+PROBLEM DESCRIPTION: 
+Design a base class called Vehicle with attributes brand, model, and year, and a method 
+ displayDetails(). Then, create two subclasses: Car and Motorcycle. Each subclass should add 
+  specific attributes (e.g., numberOfDoors for Car and engineType for Motorcycle) and override 
+   the displayDetails() method to include their unique details. In your main() method, create 
+    objects of both Car and Motorcycle, call their displayDetails(), and show how inheritance 
+     allows reuse and extension of functionality. 
+
+SAMPLE INPUT AND OUTPUT 
+
+Enter vehicle type: Car 
+Enter brand: Toyota 
+Enter model: Corolla
+Enter year: 2022 
+Enter number of doors: 4 
+--- Vehicle Details --- 
+Brand: Toyota | Model: Corolla | Year: 2022 | Doors: 4 
+
+Enter vehicle type: Motorcycle 
+Enter brand: Yamaha 
+Enter model: MT-15 
+Enter year: 2023 
+Enter engine type: 155cc Liquid-Cooled 
+--- Vehicle Details --- 
+Brand: Yamaha | Model: MT-15 | Year: 2023 | Engine: 155cc Liquid-Cooled 

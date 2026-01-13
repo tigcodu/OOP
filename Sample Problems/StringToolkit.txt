@@ -1,0 +1,30 @@
+MACHINE PROBLEM 1: String Manipulation Toolkit
+Machine Problem Overview:
+Create a Java program that serves as a toolkit for string manipulation. The toolkit should
+include a set of functions that perform various operations on strings. Each method should
+focus on a specific aspect of string manipulation, utilizing relevant Java string methods.
+String Toolkit Functions:
+1. String Reversal: Implement a method that reverses a given string.
+2. Palindrome Checker: Implement a method that checks whether a given string is a
+palindrome.
+3. Anagram Checker: Implement a function that checks if two strings are anagrams.
+4. Word Count: Implement a function that counts the number of words in a given
+string.
+5. Character Count: Implement a method that counts the total number of characters
+in the text (excluding spaces).
+6. Substring Finder: Implement a method that finds all occurrences of a specified
+substring in a given string.
+7. Lower Case Converter: Implement a method that converts a given string to
+lowercase.
+8. Upper Case Converter: Implement a method that converts a given string to
+uppercase.
+9. Vowel Remover: Implement a method that removes all vowels from a given string.
+10. Consonant Remover: Implement a function that removes all consonant from a
+given string.
+Note:
+• Provide a clear input and output.
+• Encourage the use of modular programming with well-defined methods for each
+operation.
+• Prompt users for input and display the results in a readable format.
+• Include a comprehensive set of test cases to ensure the correctness of each
+function.

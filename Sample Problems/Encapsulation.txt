@@ -1,0 +1,33 @@
+EXERCISE 1: ENCAPSULATION 
+
+CONCEPT: Encapsulation (Data Hiding and Access Control) 
+
+OBJECIVE: Apply the concept of encapsulation by defining private attributes and controlling 
+ access using public getter and setter methods. 
+
+PROBLEM DESCRIPTION 
+Create a Java class called BankAccount that models a simple banking system. The class 
+ should contain three private attributes: accountNumber, accountHolder, and balance. Provide 
+  public getter and setter methods for each attribute, ensuring that negative balances cannot be  set. 
+Add two public methods: deposit(double amount) and withdraw(double amount). The 
+ deposit() method should add money to the account only if the amount is positive, while the 
+  withdraw() method should subtract money only if there are sufficient funds available. Include a 
+   method displayAccountInfo() that prints all account details such as the account holder’s name, 
+    account number, and current balance. 
+In your main() method, create a BankAccount object, assign initial values using setters, and 
+ simulate several transactions (both valid and invalid). Use printed statements to display what 
+  happens after each operation to demonstrate how encapsulation protects and validates the  data. 
+
+SAMPLE INPUT AND OUTPUT
+
+Sample Run 1 (Valid Transactions): Enter account holder name: Chris  Piamonte 
+Enter account number: ACC-2025-001 Enter initial balance: 5000 
+--- Account Information --- Account Holder: Chris Piamonte Account Number: ACC-2025-001 Current Balance: ₱5000.0 
+Enter amount to deposit: 1500 Successfully deposited ₱1500.0 Enter amount to withdraw: 2000 Successfully withdrawn ₱2000.0 
+--- Account Information --- Account Holder: Chris Piamonte Account Number: ACC-2025-001 Current Balance: ₱4500.0 
+
+Sample Run 2 (Invalid Transactions): Enter account holder name: Maria  Santos 
+Enter account number: ACC-2025-002 Enter initial balance: -1000 Error: Balance cannot be negative. 
+--- Account Information --- Account Holder: Maria Santos Account Number: ACC-2025-002 Current Balance: ₱0.0 
+Enter amount to deposit: -500 Error: Invalid deposit amount. Enter amount to withdraw: 100 Error: Insufficient funds. 
+--- Account Information --- Account Holder: Maria Santos Account Number: ACC-2025-002 Current Balance: ₱0.0 

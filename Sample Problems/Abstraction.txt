@@ -1,0 +1,28 @@
+EXECISE 4: ABSTRACTION 
+
+CONCEPT: Abstraction (Abstract Classes and Methods) 
+
+OBJECTIVE: Apply abstraction by defining an abstract class with abstract and concrete  methods. 
+
+PROBLEM DESCRIPTION: 
+Create an abstract class called Employee with abstract methods calculateSalary() and 
+ displayInfo(), and a concrete method companyPolicy() that prints a generic message. Then, 
+  create subclasses FullTimeEmployee and PartTimeEmployee that extend Employee. Each 
+   subclass should have its own attributes (like dailyRate, daysWorked, or hoursWorked, hourlyRate)
+    and implement the abstract methods according to their salary computation. 
+
+SAMPLE INPUT AND OUTPUT: 
+
+Enter employee type: Full-Time 
+Enter name: Juan Dela Cruz 
+Enter daily rate: 800 
+Enter days worked: 20 
+Salary: ₱16000.0 
+Company Policy: All employees must submit attendance before payroll  processing. 
+
+Enter employee type: Part-Time 
+Enter name: Ana Lopez 
+Enter hourly rate: 150 
+Enter hours worked: 60 
+Salary: ₱9000.0 
+Company Policy: All employees must submit attendance before payroll  processing. 

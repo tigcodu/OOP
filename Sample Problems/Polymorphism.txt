@@ -1,0 +1,28 @@
+EXECISE 3: POLYMORPHISM 
+
+CONCEPT: Polymorphism (Method Overriding and Dynamic Binding) 
+
+OBJECTIVE: Implement polymorphism by defining a superclass and multiple subclasses that 
+ override a common method. 
+
+PROBLEM DESCRIPTION 
+Create a superclass called Shape with a method calculateArea(). Then, create subclasses 
+ Circle, Rectangle, and Triangle, each implementing calculateArea() differently. In the 
+  main() method, create an array of Shape objects and assign one object of each subclass. 
+   Use a loop to  display the area of each shape dynamically using the overridden methods. 
+
+SAMPLE INPUT AND OUTPUT 
+
+Enter shape type: Circle 
+Enter radius: 5 
+Area of Circle: 78.54 
+
+Enter shape type: Rectangle 
+Enter width: 4 
+Enter height: 6 
+Area of Rectangle: 24 
+
+Enter shape type: Triangle 
+Enter base: 8 
+Enter height: 5 
+Area of Triangle: 20
