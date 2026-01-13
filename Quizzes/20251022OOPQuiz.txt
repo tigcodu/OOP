@@ -1,0 +1,42 @@
+Create a program that will create a 3D array:
+
+float objProduct[T][R][C]
+
+- Populate Table 1 and Table 2 coming from the data below
+- Table 3 should produce the output (partial example below)
+- Filename format LastFirst.java e.g. CruzGeneva.java
+- Use our naming convention - fifty point deduction if not followed
+- Please refrain copying answers from your classmate(s) - eighty point deduction if not followed
+- Deadline of passing is no later than 20:00 (8:00PM). Forward
+  it to your class president
+
+Table 1
+Product Code  Price
+------------  ------
+503302          2.75
+503303          1.25
+503304          2.0 
+503305          3.89
+503309          9.0
+504401          2.25
+504402          4.3
+504403          1.4
+
+Table 2
+Product Code  Qty
+------------  ----
+503305          10
+503302          22
+503305          15
+503303           5
+503304          40
+503303          10
+503309          10
+503303          12
+
+Table 3
+Product Code      Amount (Price x Total Quantity)
+----------------  ----------
+503302                 60.50
+...
+503305                 97.25

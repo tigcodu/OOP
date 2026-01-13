@@ -1,0 +1,48 @@
+----------------------------------------------------------------
+* Use ArrayList
+* Create a To-Do List with the following menu:
+To-Do List App
+------------------------
+A. New
+B. Modify
+C. Remove
+D. List
+E. Save
+X. Exit
+Choose your option [Press A-E or X to quit]:
+* Examples
+- pressed A (New)
+1. Eat breakfast
+2. Brush teeth
+3. Open computer
+Please enter what to do? Report to school <Enter>
+- display menu
+- pressed B (Modify)
+1. Eat breakfast
+2. Brush teeth
+3. Open computer
+4. Report to school
+Press what item to modify: 2 <Enter>
+Please enter what to do? Take vitamins <Enter>
+- display menu
+- pressed C (Remove)
+1. Eat breakfast
+2. Take vitamins
+3. Open computer
+4. Report to school
+Press what item to remove: 3 <Enter>
+- display menu
+- pressed D (List)
+1. Eat breakfast
+2. Take vitamins
+3. Report to school
+- display menu
+- pressed E (Save)
+Enter filename to save list: mylist.todo<Enter>
+- display menu
+* Use mutable strings on your code when necessary
+* Will be giving one hour in finishing and passing the code to your class rep or president
+* File format LastFirst02.java e.g. ManuelFerdinand02.java
+* Not using our naming convention will result in 70point deduction
+* Late submission possible but with point deductions (depending on the circumstance and approval)
+* Deadline of submission is 2:00pm today. Pass it to your class rep or president for collation
